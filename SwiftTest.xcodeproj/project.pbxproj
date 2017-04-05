@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A7DC40E1E8F870400AB273E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DC40D1E8F870400AB273E /* AppDelegate.swift */; };
+		7A7DC4101E8F870400AB273E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DC40F1E8F870400AB273E /* ViewController.swift */; };
+		7A7DC4131E8F870400AB273E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4111E8F870400AB273E /* Main.storyboard */; };
+		7A7DC4151E8F870400AB273E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4141E8F870400AB273E /* Assets.xcassets */; };
+		7A7DC4181E8F870400AB273E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4161E8F870400AB273E /* LaunchScreen.storyboard */; };
+		7A7DC4231E8F870400AB273E /* SwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DC4221E8F870400AB273E /* SwiftTestTests.swift */; };
+		7A7DC42E1E8F870400AB273E /* SwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DC42D1E8F870400AB273E /* SwiftTestUITests.swift */; };
+		7A7DC4511E8F87A100AB273E /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DC44F1E8F87A100AB273E /* OneViewController.swift */; };
+		7A7DC4521E8F87A100AB273E /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4501E8F87A100AB273E /* OneViewController.xib */; };
+		7A7DC4551E8F87B100AB273E /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DC4531E8F87B100AB273E /* TwoViewController.swift */; };
+		7A7DC4561E8F87B100AB273E /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4541E8F87B100AB273E /* TwoViewController.xib */; };
+		7A7DC4591E8F87C800AB273E /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DC4571E8F87C800AB273E /* ThreeViewController.swift */; };
+		7A7DC45A1E8F87C800AB273E /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4581E8F87C800AB273E /* ThreeViewController.xib */; };
+		7A7DC45D1E8F87E400AB273E /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DC45B1E8F87E400AB273E /* FourViewController.swift */; };
+		7A7DC45E1E8F87E400AB273E /* FourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC45C1E8F87E400AB273E /* FourViewController.xib */; };
+		7A7DC4621E8F88DA00AB273E /* MainTaBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DC4601E8F88DA00AB273E /* MainTaBarViewController.swift */; };
+		7A7DC4631E8F88DA00AB273E /* MainTaBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4611E8F88DA00AB273E /* MainTaBarViewController.xib */; };
+		7A7DC4991E8F897E00AB273E /* 左上图标分析图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4661E8F897E00AB273E /* 左上图标分析图标@2x.png */; };
+		7A7DC49A1E8F897E00AB273E /* 左上图标分析图标@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4671E8F897E00AB273E /* 左上图标分析图标@3x.png */; };
+		7A7DC49B1E8F897E00AB273E /* 经营概括背景红色@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4681E8F897E00AB273E /* 经营概括背景红色@2x.png */; };
+		7A7DC49C1E8F897E00AB273E /* 经营概括背景红色@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4691E8F897E00AB273E /* 经营概括背景红色@3x.png */; };
+		7A7DC49D1E8F897E00AB273E /* 经营概括背景蓝色@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC46A1E8F897E00AB273E /* 经营概括背景蓝色@2x.png */; };
+		7A7DC49E1E8F897E00AB273E /* 经营概括背景蓝色@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC46B1E8F897E00AB273E /* 经营概括背景蓝色@3x.png */; };
+		7A7DC49F1E8F897E00AB273E /* 首页客户欠款图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC46C1E8F897E00AB273E /* 首页客户欠款图标@2x.png */; };
+		7A7DC4A01E8F897E00AB273E /* 首页客户欠款图标@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC46D1E8F897E00AB273E /* 首页客户欠款图标@3x.png */; };
+		7A7DC4A11E8F897E00AB273E /* 首页店员销量图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC46E1E8F897E00AB273E /* 首页店员销量图标@2x.png */; };
+		7A7DC4A21E8F897E00AB273E /* 首页店员销量图标@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC46F1E8F897E00AB273E /* 首页店员销量图标@3x.png */; };
+		7A7DC4A31E8F897E00AB273E /* 首页店铺销量图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4701E8F897E00AB273E /* 首页店铺销量图标@2x.png */; };
+		7A7DC4A41E8F897E00AB273E /* 首页店铺销量图标@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4711E8F897E00AB273E /* 首页店铺销量图标@3x.png */; };
+		7A7DC4A51E8F897E00AB273E /* 首页款号销量图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4721E8F897E00AB273E /* 首页款号销量图标@2x.png */; };
+		7A7DC4A61E8F897E00AB273E /* 首页款号销量图标@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4731E8F897E00AB273E /* 首页款号销量图标@3x.png */; };
+		7A7DC4A71E8F897E00AB273E /* 首页每日营业图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4741E8F897E00AB273E /* 首页每日营业图标@2x.png */; };
+		7A7DC4A81E8F897E00AB273E /* 首页每日营业图标@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4751E8F897E00AB273E /* 首页每日营业图标@3x.png */; };
+		7A7DC4A91E8F897E00AB273E /* 首页营业利润图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4761E8F897E00AB273E /* 首页营业利润图标@2x.png */; };
+		7A7DC4AA1E8F897E00AB273E /* 首页营业利润图标@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4771E8F897E00AB273E /* 首页营业利润图标@3x.png */; };
+		7A7DC4AB1E8F897E00AB273E /* 顶部背景图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4791E8F897E00AB273E /* 顶部背景图@2x.png */; };
+		7A7DC4AC1E8F897E00AB273E /* 顶部背景图@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC47A1E8F897E00AB273E /* 顶部背景图@3x.png */; };
+		7A7DC4AD1E8F897E00AB273E /* 清除@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC47C1E8F897E00AB273E /* 清除@2x.png */; };
+		7A7DC4AE1E8F897E00AB273E /* 清除@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC47D1E8F897E00AB273E /* 清除@3x.png */; };
+		7A7DC4AF1E8F897E00AB273E /* 顶部反回箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC47E1E8F897E00AB273E /* 顶部反回箭头@2x.png */; };
+		7A7DC4B01E8F897E00AB273E /* 顶部反回箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC47F1E8F897E00AB273E /* 顶部反回箭头@3x.png */; };
+		7A7DC4B11E8F897E00AB273E /* 顶部搜索@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4801E8F897E00AB273E /* 顶部搜索@2x.png */; };
+		7A7DC4B21E8F897E00AB273E /* 顶部搜索@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4811E8F897E00AB273E /* 顶部搜索@3x.png */; };
+		7A7DC4B31E8F897E00AB273E /* 顶部更多@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4821E8F897E00AB273E /* 顶部更多@2x.png */; };
+		7A7DC4B41E8F897E00AB273E /* 顶部更多@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4831E8F897E00AB273E /* 顶部更多@3x.png */; };
+		7A7DC4B51E8F897E00AB273E /* 列表右边@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4851E8F897E00AB273E /* 列表右边@2x.png */; };
+		7A7DC4B61E8F897E00AB273E /* 列表右边@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4861E8F897E00AB273E /* 列表右边@3x.png */; };
+		7A7DC4B71E8F897E00AB273E /* 列表点击背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4871E8F897E00AB273E /* 列表点击背景.png */; };
+		7A7DC4B81E8F897E00AB273E /* 底部导航-库存选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4891E8F897E00AB273E /* 底部导航-库存选中@2x.png */; };
+		7A7DC4B91E8F897E00AB273E /* 底部导航-库存选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC48A1E8F897E00AB273E /* 底部导航-库存选中@3x.png */; };
+		7A7DC4BA1E8F897E00AB273E /* 底部导航-库存默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC48B1E8F897E00AB273E /* 底部导航-库存默认@2x.png */; };
+		7A7DC4BB1E8F897E00AB273E /* 底部导航-库存默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC48C1E8F897E00AB273E /* 底部导航-库存默认@3x.png */; };
+		7A7DC4BC1E8F897E00AB273E /* 底部导航-我的选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC48D1E8F897E00AB273E /* 底部导航-我的选中@2x.png */; };
+		7A7DC4BD1E8F897E00AB273E /* 底部导航-我的选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC48E1E8F897E00AB273E /* 底部导航-我的选中@3x.png */; };
+		7A7DC4BE1E8F897E00AB273E /* 底部导航-我的默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC48F1E8F897E00AB273E /* 底部导航-我的默认@2x.png */; };
+		7A7DC4BF1E8F897E00AB273E /* 底部导航-我的默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4901E8F897E00AB273E /* 底部导航-我的默认@3x.png */; };
+		7A7DC4C01E8F897E00AB273E /* 底部导航-统计选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4911E8F897E00AB273E /* 底部导航-统计选中@2x.png */; };
+		7A7DC4C11E8F897E00AB273E /* 底部导航-统计选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4921E8F897E00AB273E /* 底部导航-统计选中@3x.png */; };
+		7A7DC4C21E8F897E00AB273E /* 底部导航-统计默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4931E8F897E00AB273E /* 底部导航-统计默认@2x.png */; };
+		7A7DC4C31E8F897E00AB273E /* 底部导航-统计默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4941E8F897E00AB273E /* 底部导航-统计默认@3x.png */; };
+		7A7DC4C41E8F897E00AB273E /* 底部导航-首页选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4951E8F897E00AB273E /* 底部导航-首页选中@2x.png */; };
+		7A7DC4C51E8F897E00AB273E /* 底部导航-首页选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4961E8F897E00AB273E /* 底部导航-首页选中@3x.png */; };
+		7A7DC4C61E8F897E00AB273E /* 底部导航-首页默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4971E8F897E00AB273E /* 底部导航-首页默认@2x.png */; };
+		7A7DC4C71E8F897E00AB273E /* 底部导航-首页默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4981E8F897E00AB273E /* 底部导航-首页默认@3x.png */; };
+		7A7DC4CB1E8F9F6A00AB273E /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DC4C91E8F9F6A00AB273E /* MainNavViewController.swift */; };
+		7A7DC4CC1E8F9F6A00AB273E /* MainNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4CA1E8F9F6A00AB273E /* MainNavViewController.xib */; };
+		7A845EB41E94883A001C096D /* OneTabelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A845EB21E94883A001C096D /* OneTabelViewCell.swift */; };
+		7A845EB51E94883A001C096D /* OneTabelViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A845EB31E94883A001C096D /* OneTabelViewCell.xib */; };
+		7A845EB81E949B48001C096D /* HomeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A845EB61E949B48001C096D /* HomeCollectionCell.swift */; };
+		7A845EB91E949B48001C096D /* HomeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A845EB71E949B48001C096D /* HomeCollectionCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A7DC41F1E8F870400AB273E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A7DC4021E8F870400AB273E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A7DC4091E8F870400AB273E;
+			remoteInfo = SwiftTest;
+		};
+		7A7DC42A1E8F870400AB273E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A7DC4021E8F870400AB273E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A7DC4091E8F870400AB273E;
+			remoteInfo = SwiftTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A7DC40A1E8F870400AB273E /* SwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7DC40D1E8F870400AB273E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A7DC40F1E8F870400AB273E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A7DC4121E8F870400AB273E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A7DC4141E8F870400AB273E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A7DC4171E8F870400AB273E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A7DC4191E8F870400AB273E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A7DC41E1E8F870400AB273E /* SwiftTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7DC4221E8F870400AB273E /* SwiftTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestTests.swift; sourceTree = "<group>"; };
+		7A7DC4241E8F870400AB273E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A7DC4291E8F870400AB273E /* SwiftTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7DC42D1E8F870400AB273E /* SwiftTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestUITests.swift; sourceTree = "<group>"; };
+		7A7DC42F1E8F870400AB273E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A7DC44F1E8F87A100AB273E /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		7A7DC4501E8F87A100AB273E /* OneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
+		7A7DC4531E8F87B100AB273E /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		7A7DC4541E8F87B100AB273E /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		7A7DC4571E8F87C800AB273E /* ThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		7A7DC4581E8F87C800AB273E /* ThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
+		7A7DC45B1E8F87E400AB273E /* FourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		7A7DC45C1E8F87E400AB273E /* FourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourViewController.xib; sourceTree = "<group>"; };
+		7A7DC4601E8F88DA00AB273E /* MainTaBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTaBarViewController.swift; sourceTree = "<group>"; };
+		7A7DC4611E8F88DA00AB273E /* MainTaBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTaBarViewController.xib; sourceTree = "<group>"; };
+		7A7DC4661E8F897E00AB273E /* 左上图标分析图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "左上图标分析图标@2x.png"; sourceTree = "<group>"; };
+		7A7DC4671E8F897E00AB273E /* 左上图标分析图标@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "左上图标分析图标@3x.png"; sourceTree = "<group>"; };
+		7A7DC4681E8F897E00AB273E /* 经营概括背景红色@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "经营概括背景红色@2x.png"; sourceTree = "<group>"; };
+		7A7DC4691E8F897E00AB273E /* 经营概括背景红色@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "经营概括背景红色@3x.png"; sourceTree = "<group>"; };
+		7A7DC46A1E8F897E00AB273E /* 经营概括背景蓝色@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "经营概括背景蓝色@2x.png"; sourceTree = "<group>"; };
+		7A7DC46B1E8F897E00AB273E /* 经营概括背景蓝色@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "经营概括背景蓝色@3x.png"; sourceTree = "<group>"; };
+		7A7DC46C1E8F897E00AB273E /* 首页客户欠款图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页客户欠款图标@2x.png"; sourceTree = "<group>"; };
+		7A7DC46D1E8F897E00AB273E /* 首页客户欠款图标@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页客户欠款图标@3x.png"; sourceTree = "<group>"; };
+		7A7DC46E1E8F897E00AB273E /* 首页店员销量图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页店员销量图标@2x.png"; sourceTree = "<group>"; };
+		7A7DC46F1E8F897E00AB273E /* 首页店员销量图标@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页店员销量图标@3x.png"; sourceTree = "<group>"; };
+		7A7DC4701E8F897E00AB273E /* 首页店铺销量图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页店铺销量图标@2x.png"; sourceTree = "<group>"; };
+		7A7DC4711E8F897E00AB273E /* 首页店铺销量图标@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页店铺销量图标@3x.png"; sourceTree = "<group>"; };
+		7A7DC4721E8F897E00AB273E /* 首页款号销量图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页款号销量图标@2x.png"; sourceTree = "<group>"; };
+		7A7DC4731E8F897E00AB273E /* 首页款号销量图标@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页款号销量图标@3x.png"; sourceTree = "<group>"; };
+		7A7DC4741E8F897E00AB273E /* 首页每日营业图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页每日营业图标@2x.png"; sourceTree = "<group>"; };
+		7A7DC4751E8F897E00AB273E /* 首页每日营业图标@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页每日营业图标@3x.png"; sourceTree = "<group>"; };
+		7A7DC4761E8F897E00AB273E /* 首页营业利润图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页营业利润图标@2x.png"; sourceTree = "<group>"; };
+		7A7DC4771E8F897E00AB273E /* 首页营业利润图标@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页营业利润图标@3x.png"; sourceTree = "<group>"; };
+		7A7DC4791E8F897E00AB273E /* 顶部背景图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "顶部背景图@2x.png"; sourceTree = "<group>"; };
+		7A7DC47A1E8F897E00AB273E /* 顶部背景图@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "顶部背景图@3x.png"; sourceTree = "<group>"; };
+		7A7DC47C1E8F897E00AB273E /* 清除@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清除@2x.png"; sourceTree = "<group>"; };
+		7A7DC47D1E8F897E00AB273E /* 清除@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清除@3x.png"; sourceTree = "<group>"; };
+		7A7DC47E1E8F897E00AB273E /* 顶部反回箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "顶部反回箭头@2x.png"; sourceTree = "<group>"; };
+		7A7DC47F1E8F897E00AB273E /* 顶部反回箭头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "顶部反回箭头@3x.png"; sourceTree = "<group>"; };
+		7A7DC4801E8F897E00AB273E /* 顶部搜索@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "顶部搜索@2x.png"; sourceTree = "<group>"; };
+		7A7DC4811E8F897E00AB273E /* 顶部搜索@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "顶部搜索@3x.png"; sourceTree = "<group>"; };
+		7A7DC4821E8F897E00AB273E /* 顶部更多@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "顶部更多@2x.png"; sourceTree = "<group>"; };
+		7A7DC4831E8F897E00AB273E /* 顶部更多@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "顶部更多@3x.png"; sourceTree = "<group>"; };
+		7A7DC4851E8F897E00AB273E /* 列表右边@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表右边@2x.png"; sourceTree = "<group>"; };
+		7A7DC4861E8F897E00AB273E /* 列表右边@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表右边@3x.png"; sourceTree = "<group>"; };
+		7A7DC4871E8F897E00AB273E /* 列表点击背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表点击背景.png"; sourceTree = "<group>"; };
+		7A7DC4891E8F897E00AB273E /* 底部导航-库存选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-库存选中@2x.png"; sourceTree = "<group>"; };
+		7A7DC48A1E8F897E00AB273E /* 底部导航-库存选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-库存选中@3x.png"; sourceTree = "<group>"; };
+		7A7DC48B1E8F897E00AB273E /* 底部导航-库存默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-库存默认@2x.png"; sourceTree = "<group>"; };
+		7A7DC48C1E8F897E00AB273E /* 底部导航-库存默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-库存默认@3x.png"; sourceTree = "<group>"; };
+		7A7DC48D1E8F897E00AB273E /* 底部导航-我的选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-我的选中@2x.png"; sourceTree = "<group>"; };
+		7A7DC48E1E8F897E00AB273E /* 底部导航-我的选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-我的选中@3x.png"; sourceTree = "<group>"; };
+		7A7DC48F1E8F897E00AB273E /* 底部导航-我的默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-我的默认@2x.png"; sourceTree = "<group>"; };
+		7A7DC4901E8F897E00AB273E /* 底部导航-我的默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-我的默认@3x.png"; sourceTree = "<group>"; };
+		7A7DC4911E8F897E00AB273E /* 底部导航-统计选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-统计选中@2x.png"; sourceTree = "<group>"; };
+		7A7DC4921E8F897E00AB273E /* 底部导航-统计选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-统计选中@3x.png"; sourceTree = "<group>"; };
+		7A7DC4931E8F897E00AB273E /* 底部导航-统计默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-统计默认@2x.png"; sourceTree = "<group>"; };
+		7A7DC4941E8F897E00AB273E /* 底部导航-统计默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-统计默认@3x.png"; sourceTree = "<group>"; };
+		7A7DC4951E8F897E00AB273E /* 底部导航-首页选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-首页选中@2x.png"; sourceTree = "<group>"; };
+		7A7DC4961E8F897E00AB273E /* 底部导航-首页选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-首页选中@3x.png"; sourceTree = "<group>"; };
+		7A7DC4971E8F897E00AB273E /* 底部导航-首页默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-首页默认@2x.png"; sourceTree = "<group>"; };
+		7A7DC4981E8F897E00AB273E /* 底部导航-首页默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-首页默认@3x.png"; sourceTree = "<group>"; };
+		7A7DC4C91E8F9F6A00AB273E /* MainNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
+		7A7DC4CA1E8F9F6A00AB273E /* MainNavViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainNavViewController.xib; sourceTree = "<group>"; };
+		7A845EB21E94883A001C096D /* OneTabelViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneTabelViewCell.swift; sourceTree = "<group>"; };
+		7A845EB31E94883A001C096D /* OneTabelViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneTabelViewCell.xib; sourceTree = "<group>"; };
+		7A845EB61E949B48001C096D /* HomeCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionCell.swift; sourceTree = "<group>"; };
+		7A845EB71E949B48001C096D /* HomeCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCollectionCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A7DC4071E8F870400AB273E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7DC41B1E8F870400AB273E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7DC4261E8F870400AB273E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A7DC4011E8F870400AB273E = {
+			isa = PBXGroup;
+			children = (
+				7A7DC40C1E8F870400AB273E /* SwiftTest */,
+				7A7DC4211E8F870400AB273E /* SwiftTestTests */,
+				7A7DC42C1E8F870400AB273E /* SwiftTestUITests */,
+				7A7DC40B1E8F870400AB273E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A7DC40B1E8F870400AB273E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC40A1E8F870400AB273E /* SwiftTest.app */,
+				7A7DC41E1E8F870400AB273E /* SwiftTestTests.xctest */,
+				7A7DC4291E8F870400AB273E /* SwiftTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A7DC40C1E8F870400AB273E /* SwiftTest */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC4C81E8F9F4E00AB273E /* Nav */,
+				7A7DC4641E8F897E00AB273E /* Images */,
+				7A7DC45F1E8F889800AB273E /* TabBar */,
+				7A7DC43B1E8F877A00AB273E /* 1 */,
+				7A7DC4401E8F877A00AB273E /* 2 */,
+				7A7DC4451E8F877A00AB273E /* 3 */,
+				7A7DC44A1E8F877A00AB273E /* 4 */,
+				7A7DC40D1E8F870400AB273E /* AppDelegate.swift */,
+				7A7DC40F1E8F870400AB273E /* ViewController.swift */,
+				7A7DC4111E8F870400AB273E /* Main.storyboard */,
+				7A7DC4141E8F870400AB273E /* Assets.xcassets */,
+				7A7DC4161E8F870400AB273E /* LaunchScreen.storyboard */,
+				7A7DC4191E8F870400AB273E /* Info.plist */,
+			);
+			path = SwiftTest;
+			sourceTree = "<group>";
+		};
+		7A7DC4211E8F870400AB273E /* SwiftTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC4221E8F870400AB273E /* SwiftTestTests.swift */,
+				7A7DC4241E8F870400AB273E /* Info.plist */,
+			);
+			path = SwiftTestTests;
+			sourceTree = "<group>";
+		};
+		7A7DC42C1E8F870400AB273E /* SwiftTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC42D1E8F870400AB273E /* SwiftTestUITests.swift */,
+				7A7DC42F1E8F870400AB273E /* Info.plist */,
+			);
+			path = SwiftTestUITests;
+			sourceTree = "<group>";
+		};
+		7A7DC43B1E8F877A00AB273E /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC43C1E8F877A00AB273E /* Controller */,
+				7A7DC43D1E8F877A00AB273E /* Model */,
+				7A7DC43E1E8F877A00AB273E /* View */,
+				7A7DC43F1E8F877A00AB273E /* ViewModel */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		7A7DC43C1E8F877A00AB273E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC44F1E8F87A100AB273E /* OneViewController.swift */,
+				7A7DC4501E8F87A100AB273E /* OneViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A7DC43D1E8F877A00AB273E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A7DC43E1E8F877A00AB273E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A845EB21E94883A001C096D /* OneTabelViewCell.swift */,
+				7A845EB31E94883A001C096D /* OneTabelViewCell.xib */,
+				7A845EB61E949B48001C096D /* HomeCollectionCell.swift */,
+				7A845EB71E949B48001C096D /* HomeCollectionCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A7DC43F1E8F877A00AB273E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7A7DC4401E8F877A00AB273E /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC4411E8F877A00AB273E /* Controller */,
+				7A7DC4421E8F877A00AB273E /* Model */,
+				7A7DC4431E8F877A00AB273E /* View */,
+				7A7DC4441E8F877A00AB273E /* ViewModel */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		7A7DC4411E8F877A00AB273E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC4531E8F87B100AB273E /* TwoViewController.swift */,
+				7A7DC4541E8F87B100AB273E /* TwoViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A7DC4421E8F877A00AB273E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A7DC4431E8F877A00AB273E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A7DC4441E8F877A00AB273E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7A7DC4451E8F877A00AB273E /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC4461E8F877A00AB273E /* Controller */,
+				7A7DC4471E8F877A00AB273E /* Model */,
+				7A7DC4481E8F877A00AB273E /* View */,
+				7A7DC4491E8F877A00AB273E /* ViewModel */,
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
+		7A7DC4461E8F877A00AB273E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC4571E8F87C800AB273E /* ThreeViewController.swift */,
+				7A7DC4581E8F87C800AB273E /* ThreeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A7DC4471E8F877A00AB273E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A7DC4481E8F877A00AB273E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A7DC4491E8F877A00AB273E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7A7DC44A1E8F877A00AB273E /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC44B1E8F877B00AB273E /* Controller */,
+				7A7DC44C1E8F877B00AB273E /* Model */,
+				7A7DC44D1E8F877B00AB273E /* View */,
+				7A7DC44E1E8F877B00AB273E /* ViewModel */,
+			);
+			path = 4;
+			sourceTree = "<group>";
+		};
+		7A7DC44B1E8F877B00AB273E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC45B1E8F87E400AB273E /* FourViewController.swift */,
+				7A7DC45C1E8F87E400AB273E /* FourViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A7DC44C1E8F877B00AB273E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A7DC44D1E8F877B00AB273E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A7DC44E1E8F877B00AB273E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7A7DC45F1E8F889800AB273E /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC4601E8F88DA00AB273E /* MainTaBarViewController.swift */,
+				7A7DC4611E8F88DA00AB273E /* MainTaBarViewController.xib */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		7A7DC4641E8F897E00AB273E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC4651E8F897E00AB273E /* DataStat */,
+				7A7DC4781E8F897E00AB273E /* Home */,
+				7A7DC47B1E8F897E00AB273E /* NavigationBar */,
+				7A7DC4841E8F897E00AB273E /* Public */,
+				7A7DC4881E8F897E00AB273E /* TabBar */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		7A7DC4651E8F897E00AB273E /* DataStat */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC4661E8F897E00AB273E /* 左上图标分析图标@2x.png */,
+				7A7DC4671E8F897E00AB273E /* 左上图标分析图标@3x.png */,
+				7A7DC4681E8F897E00AB273E /* 经营概括背景红色@2x.png */,
+				7A7DC4691E8F897E00AB273E /* 经营概括背景红色@3x.png */,
+				7A7DC46A1E8F897E00AB273E /* 经营概括背景蓝色@2x.png */,
+				7A7DC46B1E8F897E00AB273E /* 经营概括背景蓝色@3x.png */,
+				7A7DC46C1E8F897E00AB273E /* 首页客户欠款图标@2x.png */,
+				7A7DC46D1E8F897E00AB273E /* 首页客户欠款图标@3x.png */,
+				7A7DC46E1E8F897E00AB273E /* 首页店员销量图标@2x.png */,
+				7A7DC46F1E8F897E00AB273E /* 首页店员销量图标@3x.png */,
+				7A7DC4701E8F897E00AB273E /* 首页店铺销量图标@2x.png */,
+				7A7DC4711E8F897E00AB273E /* 首页店铺销量图标@3x.png */,
+				7A7DC4721E8F897E00AB273E /* 首页款号销量图标@2x.png */,
+				7A7DC4731E8F897E00AB273E /* 首页款号销量图标@3x.png */,
+				7A7DC4741E8F897E00AB273E /* 首页每日营业图标@2x.png */,
+				7A7DC4751E8F897E00AB273E /* 首页每日营业图标@3x.png */,
+				7A7DC4761E8F897E00AB273E /* 首页营业利润图标@2x.png */,
+				7A7DC4771E8F897E00AB273E /* 首页营业利润图标@3x.png */,
+			);
+			path = DataStat;
+			sourceTree = "<group>";
+		};
+		7A7DC4781E8F897E00AB273E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC4791E8F897E00AB273E /* 顶部背景图@2x.png */,
+				7A7DC47A1E8F897E00AB273E /* 顶部背景图@3x.png */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A7DC47B1E8F897E00AB273E /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC47C1E8F897E00AB273E /* 清除@2x.png */,
+				7A7DC47D1E8F897E00AB273E /* 清除@3x.png */,
+				7A7DC47E1E8F897E00AB273E /* 顶部反回箭头@2x.png */,
+				7A7DC47F1E8F897E00AB273E /* 顶部反回箭头@3x.png */,
+				7A7DC4801E8F897E00AB273E /* 顶部搜索@2x.png */,
+				7A7DC4811E8F897E00AB273E /* 顶部搜索@3x.png */,
+				7A7DC4821E8F897E00AB273E /* 顶部更多@2x.png */,
+				7A7DC4831E8F897E00AB273E /* 顶部更多@3x.png */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		7A7DC4841E8F897E00AB273E /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC4851E8F897E00AB273E /* 列表右边@2x.png */,
+				7A7DC4861E8F897E00AB273E /* 列表右边@3x.png */,
+				7A7DC4871E8F897E00AB273E /* 列表点击背景.png */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		7A7DC4881E8F897E00AB273E /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC4891E8F897E00AB273E /* 底部导航-库存选中@2x.png */,
+				7A7DC48A1E8F897E00AB273E /* 底部导航-库存选中@3x.png */,
+				7A7DC48B1E8F897E00AB273E /* 底部导航-库存默认@2x.png */,
+				7A7DC48C1E8F897E00AB273E /* 底部导航-库存默认@3x.png */,
+				7A7DC48D1E8F897E00AB273E /* 底部导航-我的选中@2x.png */,
+				7A7DC48E1E8F897E00AB273E /* 底部导航-我的选中@3x.png */,
+				7A7DC48F1E8F897E00AB273E /* 底部导航-我的默认@2x.png */,
+				7A7DC4901E8F897E00AB273E /* 底部导航-我的默认@3x.png */,
+				7A7DC4911E8F897E00AB273E /* 底部导航-统计选中@2x.png */,
+				7A7DC4921E8F897E00AB273E /* 底部导航-统计选中@3x.png */,
+				7A7DC4931E8F897E00AB273E /* 底部导航-统计默认@2x.png */,
+				7A7DC4941E8F897E00AB273E /* 底部导航-统计默认@3x.png */,
+				7A7DC4951E8F897E00AB273E /* 底部导航-首页选中@2x.png */,
+				7A7DC4961E8F897E00AB273E /* 底部导航-首页选中@3x.png */,
+				7A7DC4971E8F897E00AB273E /* 底部导航-首页默认@2x.png */,
+				7A7DC4981E8F897E00AB273E /* 底部导航-首页默认@3x.png */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		7A7DC4C81E8F9F4E00AB273E /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				7A7DC4C91E8F9F6A00AB273E /* MainNavViewController.swift */,
+				7A7DC4CA1E8F9F6A00AB273E /* MainNavViewController.xib */,
+			);
+			path = Nav;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A7DC4091E8F870400AB273E /* SwiftTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A7DC4321E8F870400AB273E /* Build configuration list for PBXNativeTarget "SwiftTest" */;
+			buildPhases = (
+				7A7DC4061E8F870400AB273E /* Sources */,
+				7A7DC4071E8F870400AB273E /* Frameworks */,
+				7A7DC4081E8F870400AB273E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftTest;
+			productName = SwiftTest;
+			productReference = 7A7DC40A1E8F870400AB273E /* SwiftTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A7DC41D1E8F870400AB273E /* SwiftTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A7DC4351E8F870400AB273E /* Build configuration list for PBXNativeTarget "SwiftTestTests" */;
+			buildPhases = (
+				7A7DC41A1E8F870400AB273E /* Sources */,
+				7A7DC41B1E8F870400AB273E /* Frameworks */,
+				7A7DC41C1E8F870400AB273E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A7DC4201E8F870400AB273E /* PBXTargetDependency */,
+			);
+			name = SwiftTestTests;
+			productName = SwiftTestTests;
+			productReference = 7A7DC41E1E8F870400AB273E /* SwiftTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A7DC4281E8F870400AB273E /* SwiftTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A7DC4381E8F870400AB273E /* Build configuration list for PBXNativeTarget "SwiftTestUITests" */;
+			buildPhases = (
+				7A7DC4251E8F870400AB273E /* Sources */,
+				7A7DC4261E8F870400AB273E /* Frameworks */,
+				7A7DC4271E8F870400AB273E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A7DC42B1E8F870400AB273E /* PBXTargetDependency */,
+			);
+			name = SwiftTestUITests;
+			productName = SwiftTestUITests;
+			productReference = 7A7DC4291E8F870400AB273E /* SwiftTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A7DC4021E8F870400AB273E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = 120v;
+				TargetAttributes = {
+					7A7DC4091E8F870400AB273E = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = H4384M9Z5J;
+						ProvisioningStyle = Automatic;
+					};
+					7A7DC41D1E8F870400AB273E = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = H4384M9Z5J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A7DC4091E8F870400AB273E;
+					};
+					7A7DC4281E8F870400AB273E = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = H4384M9Z5J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A7DC4091E8F870400AB273E;
+					};
+				};
+			};
+			buildConfigurationList = 7A7DC4051E8F870400AB273E /* Build configuration list for PBXProject "SwiftTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A7DC4011E8F870400AB273E;
+			productRefGroup = 7A7DC40B1E8F870400AB273E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A7DC4091E8F870400AB273E /* SwiftTest */,
+				7A7DC41D1E8F870400AB273E /* SwiftTestTests */,
+				7A7DC4281E8F870400AB273E /* SwiftTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A7DC4081E8F870400AB273E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7DC45E1E8F87E400AB273E /* FourViewController.xib in Resources */,
+				7A7DC4C21E8F897E00AB273E /* 底部导航-统计默认@2x.png in Resources */,
+				7A7DC4B41E8F897E00AB273E /* 顶部更多@3x.png in Resources */,
+				7A7DC4A91E8F897E00AB273E /* 首页营业利润图标@2x.png in Resources */,
+				7A7DC4AE1E8F897E00AB273E /* 清除@3x.png in Resources */,
+				7A7DC4A51E8F897E00AB273E /* 首页款号销量图标@2x.png in Resources */,
+				7A7DC49A1E8F897E00AB273E /* 左上图标分析图标@3x.png in Resources */,
+				7A7DC4B81E8F897E00AB273E /* 底部导航-库存选中@2x.png in Resources */,
+				7A7DC4B61E8F897E00AB273E /* 列表右边@3x.png in Resources */,
+				7A7DC4B71E8F897E00AB273E /* 列表点击背景.png in Resources */,
+				7A845EB91E949B48001C096D /* HomeCollectionCell.xib in Resources */,
+				7A7DC4C41E8F897E00AB273E /* 底部导航-首页选中@2x.png in Resources */,
+				7A7DC49D1E8F897E00AB273E /* 经营概括背景蓝色@2x.png in Resources */,
+				7A7DC4AF1E8F897E00AB273E /* 顶部反回箭头@2x.png in Resources */,
+				7A7DC4C51E8F897E00AB273E /* 底部导航-首页选中@3x.png in Resources */,
+				7A7DC4A21E8F897E00AB273E /* 首页店员销量图标@3x.png in Resources */,
+				7A7DC4B31E8F897E00AB273E /* 顶部更多@2x.png in Resources */,
+				7A7DC49E1E8F897E00AB273E /* 经营概括背景蓝色@3x.png in Resources */,
+				7A7DC4A31E8F897E00AB273E /* 首页店铺销量图标@2x.png in Resources */,
+				7A7DC4A11E8F897E00AB273E /* 首页店员销量图标@2x.png in Resources */,
+				7A7DC4B21E8F897E00AB273E /* 顶部搜索@3x.png in Resources */,
+				7A7DC4AC1E8F897E00AB273E /* 顶部背景图@3x.png in Resources */,
+				7A7DC4A81E8F897E00AB273E /* 首页每日营业图标@3x.png in Resources */,
+				7A7DC4A01E8F897E00AB273E /* 首页客户欠款图标@3x.png in Resources */,
+				7A7DC4BE1E8F897E00AB273E /* 底部导航-我的默认@2x.png in Resources */,
+				7A7DC4BC1E8F897E00AB273E /* 底部导航-我的选中@2x.png in Resources */,
+				7A7DC4A61E8F897E00AB273E /* 首页款号销量图标@3x.png in Resources */,
+				7A7DC4C71E8F897E00AB273E /* 底部导航-首页默认@3x.png in Resources */,
+				7A7DC4181E8F870400AB273E /* LaunchScreen.storyboard in Resources */,
+				7A7DC4AB1E8F897E00AB273E /* 顶部背景图@2x.png in Resources */,
+				7A7DC4C61E8F897E00AB273E /* 底部导航-首页默认@2x.png in Resources */,
+				7A7DC4AA1E8F897E00AB273E /* 首页营业利润图标@3x.png in Resources */,
+				7A7DC4BF1E8F897E00AB273E /* 底部导航-我的默认@3x.png in Resources */,
+				7A7DC4B51E8F897E00AB273E /* 列表右边@2x.png in Resources */,
+				7A845EB51E94883A001C096D /* OneTabelViewCell.xib in Resources */,
+				7A7DC4A41E8F897E00AB273E /* 首页店铺销量图标@3x.png in Resources */,
+				7A7DC4631E8F88DA00AB273E /* MainTaBarViewController.xib in Resources */,
+				7A7DC4BD1E8F897E00AB273E /* 底部导航-我的选中@3x.png in Resources */,
+				7A7DC4991E8F897E00AB273E /* 左上图标分析图标@2x.png in Resources */,
+				7A7DC4C11E8F897E00AB273E /* 底部导航-统计选中@3x.png in Resources */,
+				7A7DC4B01E8F897E00AB273E /* 顶部反回箭头@3x.png in Resources */,
+				7A7DC4BB1E8F897E00AB273E /* 底部导航-库存默认@3x.png in Resources */,
+				7A7DC4151E8F870400AB273E /* Assets.xcassets in Resources */,
+				7A7DC4C01E8F897E00AB273E /* 底部导航-统计选中@2x.png in Resources */,
+				7A7DC49C1E8F897E00AB273E /* 经营概括背景红色@3x.png in Resources */,
+				7A7DC4CC1E8F9F6A00AB273E /* MainNavViewController.xib in Resources */,
+				7A7DC4C31E8F897E00AB273E /* 底部导航-统计默认@3x.png in Resources */,
+				7A7DC4131E8F870400AB273E /* Main.storyboard in Resources */,
+				7A7DC4B91E8F897E00AB273E /* 底部导航-库存选中@3x.png in Resources */,
+				7A7DC4561E8F87B100AB273E /* TwoViewController.xib in Resources */,
+				7A7DC49B1E8F897E00AB273E /* 经营概括背景红色@2x.png in Resources */,
+				7A7DC4A71E8F897E00AB273E /* 首页每日营业图标@2x.png in Resources */,
+				7A7DC4B11E8F897E00AB273E /* 顶部搜索@2x.png in Resources */,
+				7A7DC4521E8F87A100AB273E /* OneViewController.xib in Resources */,
+				7A7DC4BA1E8F897E00AB273E /* 底部导航-库存默认@2x.png in Resources */,
+				7A7DC4AD1E8F897E00AB273E /* 清除@2x.png in Resources */,
+				7A7DC45A1E8F87C800AB273E /* ThreeViewController.xib in Resources */,
+				7A7DC49F1E8F897E00AB273E /* 首页客户欠款图标@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7DC41C1E8F870400AB273E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7DC4271E8F870400AB273E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A7DC4061E8F870400AB273E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A845EB81E949B48001C096D /* HomeCollectionCell.swift in Sources */,
+				7A7DC4511E8F87A100AB273E /* OneViewController.swift in Sources */,
+				7A7DC4101E8F870400AB273E /* ViewController.swift in Sources */,
+				7A7DC4621E8F88DA00AB273E /* MainTaBarViewController.swift in Sources */,
+				7A845EB41E94883A001C096D /* OneTabelViewCell.swift in Sources */,
+				7A7DC45D1E8F87E400AB273E /* FourViewController.swift in Sources */,
+				7A7DC40E1E8F870400AB273E /* AppDelegate.swift in Sources */,
+				7A7DC4551E8F87B100AB273E /* TwoViewController.swift in Sources */,
+				7A7DC4591E8F87C800AB273E /* ThreeViewController.swift in Sources */,
+				7A7DC4CB1E8F9F6A00AB273E /* MainNavViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7DC41A1E8F870400AB273E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7DC4231E8F870400AB273E /* SwiftTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7DC4251E8F870400AB273E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7DC42E1E8F870400AB273E /* SwiftTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A7DC4201E8F870400AB273E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A7DC4091E8F870400AB273E /* SwiftTest */;
+			targetProxy = 7A7DC41F1E8F870400AB273E /* PBXContainerItemProxy */;
+		};
+		7A7DC42B1E8F870400AB273E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A7DC4091E8F870400AB273E /* SwiftTest */;
+			targetProxy = 7A7DC42A1E8F870400AB273E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A7DC4111E8F870400AB273E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A7DC4121E8F870400AB273E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A7DC4161E8F870400AB273E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A7DC4171E8F870400AB273E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A7DC4301E8F870400AB273E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A7DC4311E8F870400AB273E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A7DC4331E8F870400AB273E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H4384M9Z5J;
+				INFOPLIST_FILE = SwiftTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Reson.SwiftTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7A7DC4341E8F870400AB273E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H4384M9Z5J;
+				INFOPLIST_FILE = SwiftTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Reson.SwiftTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7A7DC4361E8F870400AB273E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H4384M9Z5J;
+				INFOPLIST_FILE = SwiftTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Reson.SwiftTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTest.app/SwiftTest";
+			};
+			name = Debug;
+		};
+		7A7DC4371E8F870400AB273E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H4384M9Z5J;
+				INFOPLIST_FILE = SwiftTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Reson.SwiftTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTest.app/SwiftTest";
+			};
+			name = Release;
+		};
+		7A7DC4391E8F870400AB273E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H4384M9Z5J;
+				INFOPLIST_FILE = SwiftTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Reson.SwiftTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftTest;
+			};
+			name = Debug;
+		};
+		7A7DC43A1E8F870400AB273E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H4384M9Z5J;
+				INFOPLIST_FILE = SwiftTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Reson.SwiftTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A7DC4051E8F870400AB273E /* Build configuration list for PBXProject "SwiftTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7DC4301E8F870400AB273E /* Debug */,
+				7A7DC4311E8F870400AB273E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A7DC4321E8F870400AB273E /* Build configuration list for PBXNativeTarget "SwiftTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7DC4331E8F870400AB273E /* Debug */,
+				7A7DC4341E8F870400AB273E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A7DC4351E8F870400AB273E /* Build configuration list for PBXNativeTarget "SwiftTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7DC4361E8F870400AB273E /* Debug */,
+				7A7DC4371E8F870400AB273E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A7DC4381E8F870400AB273E /* Build configuration list for PBXNativeTarget "SwiftTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7DC4391E8F870400AB273E /* Debug */,
+				7A7DC43A1E8F870400AB273E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A7DC4021E8F870400AB273E /* Project object */;
+}
