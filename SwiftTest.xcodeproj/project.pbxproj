@@ -73,6 +73,7 @@
 		7A7DC4C71E8F897E00AB273E /* 底部导航-首页默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4981E8F897E00AB273E /* 底部导航-首页默认@3x.png */; };
 		7A7DC4CB1E8F9F6A00AB273E /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DC4C91E8F9F6A00AB273E /* MainNavViewController.swift */; };
 		7A7DC4CC1E8F9F6A00AB273E /* MainNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DC4CA1E8F9F6A00AB273E /* MainNavViewController.xib */; };
+		7A7F23971E95DA81000A042B /* Test1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F23961E95DA81000A042B /* Test1View.swift */; };
 		7A845EB41E94883A001C096D /* OneTabelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A845EB21E94883A001C096D /* OneTabelViewCell.swift */; };
 		7A845EB51E94883A001C096D /* OneTabelViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A845EB31E94883A001C096D /* OneTabelViewCell.xib */; };
 		7A845EB81E949B48001C096D /* HomeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A845EB61E949B48001C096D /* HomeCollectionCell.swift */; };
@@ -169,6 +170,7 @@
 		7A7DC4981E8F897E00AB273E /* 底部导航-首页默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航-首页默认@3x.png"; sourceTree = "<group>"; };
 		7A7DC4C91E8F9F6A00AB273E /* MainNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
 		7A7DC4CA1E8F9F6A00AB273E /* MainNavViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainNavViewController.xib; sourceTree = "<group>"; };
+		7A7F23961E95DA81000A042B /* Test1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test1View.swift; sourceTree = "<group>"; };
 		7A845EB21E94883A001C096D /* OneTabelViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneTabelViewCell.swift; sourceTree = "<group>"; };
 		7A845EB31E94883A001C096D /* OneTabelViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneTabelViewCell.xib; sourceTree = "<group>"; };
 		7A845EB61E949B48001C096D /* HomeCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionCell.swift; sourceTree = "<group>"; };
@@ -415,6 +417,7 @@
 		7A7DC44D1E8F877B00AB273E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7A7F23961E95DA81000A042B /* Test1View.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -731,6 +734,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A845EB81E949B48001C096D /* HomeCollectionCell.swift in Sources */,
+				7A7F23971E95DA81000A042B /* Test1View.swift in Sources */,
 				7A7DC4511E8F87A100AB273E /* OneViewController.swift in Sources */,
 				7A7DC4101E8F870400AB273E /* ViewController.swift in Sources */,
 				7A7DC4621E8F88DA00AB273E /* MainTaBarViewController.swift in Sources */,

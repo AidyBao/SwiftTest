@@ -39,7 +39,38 @@ class TwoViewController: UIViewController {
     
     
     func itemBtnAction(_ sender:UIButton){
-        NSLog("%d", sender.tag)
+        switch sender.tag {
+        case 0:
+            
+            let test1View:Test1View = Test1View.init(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.width, height:  UIScreen.main.bounds.height))
+            test1View.backgroundColor = UIColor.lightGray
+            UIApplication.shared.keyWindow?.rootViewController?.view.addSubview(test1View)
+            
+            test1View.didClicked = {
+                NSLog("test")
+            }
+            
+            test1View.block = {(name,age) in
+                
+                NSLog("%@ -- %d", name,age)
+                
+            }
+            
+            
+            break
+        case 1:
+            break
+        case 2:
+            break
+        case 3:
+            break
+        case 4:
+            break
+        case 5:
+            break
+        default:
+            break
+        }
         
     }
     
