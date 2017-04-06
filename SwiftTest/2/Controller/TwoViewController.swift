@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TwoViewController: UIViewController {
+class TwoViewController: UIViewController,TestDelegateViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,25 +40,29 @@ class TwoViewController: UIViewController {
     
     func itemBtnAction(_ sender:UIButton){
         switch sender.tag {
-        case 0:
+        case 0://测试Block
             
             let test1View:Test1View = Test1View.init(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.width, height:  UIScreen.main.bounds.height))
             test1View.backgroundColor = UIColor.lightGray
             UIApplication.shared.keyWindow?.rootViewController?.view.addSubview(test1View)
             
-            test1View.didClicked = {
+            test1View.block2 = {
                 NSLog("test")
             }
             
-            test1View.block = {(name,age) in
+            test1View.block1 = {(name,age) in
                 
                 NSLog("%@ -- %d", name,age)
                 
+                test1View.removeFromSuperview()
             }
-            
-            
             break
-        case 1:
+        case 1://测试代理
+            
+            let test2View:TestDelegateView = TestDelegateView.init(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.width, height:  UIScreen.main.bounds.height))
+            test2View.delegate = self
+            UIApplication.shared.keyWindow?.rootViewController?.view.addSubview(test2View)
+            
             break
         case 2:
             break
@@ -74,7 +78,9 @@ class TwoViewController: UIViewController {
         
     }
     
-    
+    func btnAction(sender: UIButton) {
+        NSLog("sender")
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

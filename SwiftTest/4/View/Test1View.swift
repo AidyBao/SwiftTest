@@ -9,23 +9,27 @@
 import UIKit
 
  /**
+ *带参数:
  *  声明一个闭包别名，闭包含字符串类型的两个参数，无返回值(使用“（）”或者“Void”都一样)
  */
+typealias testBlock1 = (String,Int)->Void //也可以写成:typealias testBlock = (String,Int)->()
 
-typealias testBlock = (String,Int)->()
+/**
+ *不带参数:
+ *
+ */
+typealias testBlock2 = () -> () //也可以写成:typealias testBlock = (String,Int)->Void
 
 private let  KLMargin:CGFloat  = 10
 private let  KLLabelHeight:CGFloat  = 30
 
 class Test1View: UIView {
     
-    // 闭包 类似oc中的block
-    var didClicked:(()->())?
+    // 不带参数
+    var block2:testBlock2?
     
-    var block:testBlock?
-    
-    
-    
+    //带参数
+    var block1:testBlock1?
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -51,12 +55,12 @@ class Test1View: UIView {
     
     // 按钮点击事件的调用
     func buttonCllick(_ button: UIButton){
-        if didClicked != nil {
-            didClicked!()
+        if block2 != nil {
+            block2!()
         }
         
-        if block != nil{
-            block!("123",1)
+        if block1 != nil{
+            block1!("123",1)
         }
     }
     
