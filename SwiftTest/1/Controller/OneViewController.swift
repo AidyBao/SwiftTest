@@ -16,8 +16,20 @@ class OneViewController: UIViewController, UITableViewDelegate, UITableViewDataS
         self.view.backgroundColor = UIColor.lightGray
         
         self.view.addSubview(self.tableView)
+        
+        self.test()
+        
     }
     
+    //MARK:- Test Color
+    func test() -> () {
+        
+        self.view.backgroundColor = mq_ColorUnit.mq_lightGrayColor()
+        print(mq_ColorUnit.mq_mainRedColor())
+    }
+    
+    
+    //MARK:- UITableViewDelegate && UITableViewDataSoure
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 30
     }
@@ -48,6 +60,8 @@ class OneViewController: UIViewController, UITableViewDelegate, UITableViewDataS
         let cell = tableView.dequeueReusableCell(withIdentifier: oneCellId, for: indexPath) as! OneTabelViewCell
         
         cell.backgroundColor = UIColor.red
+        
+        
         
         return cell
         
